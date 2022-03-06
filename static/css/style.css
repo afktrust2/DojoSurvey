@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: lightblue;
+}
+
+.box{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 1px black;
+    text-align: center;
+    height: 650px;
+    width: 50%;
+    background-color: lightgray;
+}
+
+
+/* form{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 1px black;
+    text-align: center;
+    height: 650px;
+    width: 50%;
+    background-color: lightgray;
+} */
+
+.form_center{
+    margin-left: 35%;
+}
+
+.form_size{
+    height: 30px;
+    width: 200px;
+}
+
+textarea{
+    margin-left: 28%;
+    width: 300px;
+    height: 150px;
+}
+
+#submit{
+    margin-left: 43%;
+    margin-top: 25px;
+    height: 30px;
+    width: 100px;
+}
